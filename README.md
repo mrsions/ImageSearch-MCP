@@ -19,7 +19,20 @@ Claude용 이미지 검색 및 다운로드 MCP(Model Context Protocol) 서버�
 
 ### claude-code
 ```bash
-claude mcp add -s user -y @mrsions/imagesearch-mcp
+claude mcp add -s user imagesearch-mcp npx -y @sions/imagesearch-mcp
+
+or 
+
+claude mcp add -s user imagesearch-mcp cmd /c npx -y @sions/imagesearch-mcp
+```
+
+### gemini-cli
+```bash
+gemini mcp add -s user imagesearch-mcp npx -y @sions/imagesearch-mcp
+
+or
+
+gemini mcp add -s user imagesearch-mcp cmd /c npx -y @sions/imagesearch-mcp
 ```
 
 ## 제공하는 도구

@@ -1,5 +1,5 @@
 {
-  "name": "imagesearch-mcp",
+  "name": "@sions/imagesearch-mcp",
   "version": "0.1.0",
   "description": "MCP server for image search and download from Civitai and Iconify",
   "main": "src/index.js",

@@ -5,6 +5,7 @@ tests/
 # Development files
 babel.config.js
 jest.config.js
+.claude
 
 # IDE files
 .vscode/
