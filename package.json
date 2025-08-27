@@ -1,0 +1,53 @@
+{
+  "name": "imagesearch-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for image search and download from Civitai and Iconify",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "imagesearch-mcp": "src/index.js"
+  },
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "mcp-server": "node src/index.js",
+    "setup:link": "npm link",
+    "setup:unlink": "npm unlink -g imagesearch-mcp",
+    "setup:install": "npm install -g .",
+    "setup:uninstall": "npm uninstall -g imagesearch-mcp"
+  },
+  "keywords": [
+    "mcp",
+    "image-search",
+    "civitai", 
+    "iconify",
+    "claude",
+    "ai",
+    "anthropic",
+    "llm",
+    "model-context-protocol"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "node-fetch": "^3.3.2",
+    "sharp": "^0.34.3"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.28.3",
+    "babel-jest": "^30.0.5",
+    "jest": "^30.0.5",
+    "jest-junit": "^16.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "mrsions",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrsions/imagesearch-mcp.git"
+  },
+  "homepage": "https://github.com/mrsions/imagesearch-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/mrsions/imagesearch-mcp/issues"
+  }
+}
